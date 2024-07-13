@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DIC Cafe</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+</head>
+
+<body>
+    <header class="sub_header">
+        <nav class="header_nav">
+            <a href="index.html"><img src="images/sample_logo_k.png" class="logo"></a>
+            <ul class="global_nav">
+                <li><a href="index.html" class="global_nav_item">Inicio</a></li>
+                <li><a href="blueberry_pancakes.html" class="global_nav_item">Menú</a></li>
+                <li><a href="contact.html" class="global_nav_item">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_content">
+        <section class="contact_section">
+            <div class="section_header">
+                <h1>Contacto</h1>
+                <p>Ponte en contacto con nosotros</p>
+            </div>
+            <form action="#" method="POST">
+                <table class="contact_table">
+                    <tr class="form_row">
+                        <td class="form_label"><label for="nombre">Nombre</label></td>
+                        <td class="form_field"><input type="text" name="nombre" id="nombre"></td>
+                    </tr>
+                    <tr class="form_row">
+                        <td class="form_label"><label for="telefono">Datos de contacto</label></td>
+                        <td class="form_field"><input type="tel" name="telefono" id="telefono"></td>
+                    </tr>
+                    <tr class="form_row">
+                        <td class="form_label"><label for="area">Departamento</label></td>
+                        <td class="form_field">
+                            <select id="area" name="area">
+                                <option value="0">Selecciona una opción</option>
+                                <option value="1">Asunción</option>
+                                <option value="2">Central</option>
+                                <option value="3">Chaco</option>
+                                <option value="4">Itapúa</option>
+                                <option value="5">Alto Paraguay</option>
+                                <option value="6">Caaguazú</option>
+                                <option value="7">Alto Paraná</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="form_row">
+                        <td class="form_label"><label for="mensaje">Mensaje</label></td>
+                        <td class="form_field"><textarea name="mensaje" id="mensaje"></textarea></td>
+                    </tr>
+                </table>
+                <div class="form_actions">
+                    <button type="reset" class="btn reset_btn">Reiniciar</button>
+                    <button type="submit" class="btn submit_btn">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="site_footer">
+        <nav>
+            <ul class="footer_nav">
+                <li><a href="index.html" class="footer_nav_item">Inicio</a></li>
+                <li><a href="blueberry_pancakes.html" class="footer_nav_item">Menú</a></li>
+                <li><a href="contact.html" class="footer_nav_item">Contacto</a></li>
+                <li>
+                    <a href="index.html" class="footer_nav_item"><img src="images/sample_logo_w.png" class="footer_logo"></a>
+                </li>
+            </ul>
+        </nav>
+        <p class="footer_rights">© 2024 DIVIC Corp. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
